@@ -46,12 +46,20 @@ console.log("something = "+this.something);
 
 
 // code below needs updating 
-function List(){
+var node = function(){
   this.next;
   this.previous;
+  this.value =null;
+}
+
+function List(){
+  this.root;
+  this.next;
   this.value;
 }
 List.prototype.root;
 List.prototype.currentPointer;
-List.prototype.initialize = function(value){}
+List.prototype.initialize = function(value){
+
+}
 List.prototype.addObject = function(value){}
