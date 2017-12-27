@@ -1,4 +1,4 @@
-This Area will initially have information about 
+#This Area will initially have information about 
 
 variables
 classes,objects and function
